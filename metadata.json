@@ -1,0 +1,6 @@
+{
+  "name": "JARVIS AI Assistant",
+  "description": "Futuristic AI Voice & Smart Command Center with Multi-Model AI (Gemini & ChatGPT style), Daily Task Manager, Smart Home Controls, Security Feed Monitoring, and Hands-Free Social Media Scroller.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

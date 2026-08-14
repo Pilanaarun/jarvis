@@ -1,0 +1,16 @@
+package com.example.data.local
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "tasks")
+data class TaskEntity(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    val title: String,
+    val description: String = "",
+    val category: String = "General", // General, Smart Home, Work, Personal
+    val priority: String = "Medium", // High, Medium, Low
+    val isCompleted: Boolean = false,
+    val dueDate: String = "",
+    val createdAtMs: Long = System.currentTimeMillis()
+)
